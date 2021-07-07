@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="projectCPPPart1"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/ARI/Desktop/projectCPPPart1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\ARI\Desktop\projectCPPPart1\cmake-build-debug\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\ARI\Desktop\projectCPPPart1\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\ARI\Desktop\projectCPPPart1\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\ARI\Desktop\projectCPPPart1\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="projectCPPPart1">
+				<Option output="C:/Users/ARI/Desktop/projectCPPPart1/cmake-build-debug/projectCPPPart1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ARI/Desktop/projectCPPPart1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/ARI/Desktop/projectCPPPart1/projectCPPPart1"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\ARI\Desktop\projectCPPPart1\cmake-build-debug\Makefile VERBOSE=1 projectCPPPart1"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\ARI\Desktop\projectCPPPart1\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\ARI\Desktop\projectCPPPart1\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\ARI\Desktop\projectCPPPart1\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="projectCPPPart1/fast">
+				<Option output="C:/Users/ARI/Desktop/projectCPPPart1/cmake-build-debug/projectCPPPart1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/ARI/Desktop/projectCPPPart1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/ARI/Desktop/projectCPPPart1/projectCPPPart1"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\ARI\Desktop\projectCPPPart1\cmake-build-debug\Makefile VERBOSE=1 projectCPPPart1/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\ARI\Desktop\projectCPPPart1\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\ARI\Desktop\projectCPPPart1\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\ARI\Desktop\projectCPPPart1\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/ARI/Desktop/projectCPPPart1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\ARI\Desktop\projectCPPPart1\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\ARI\Desktop\projectCPPPart1\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\ARI\Desktop\projectCPPPart1\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\ARI\Desktop\projectCPPPart1\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/ARI/Desktop/projectCPPPart1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\ARI\Desktop\projectCPPPart1\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\ARI\Desktop\projectCPPPart1\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\ARI\Desktop\projectCPPPart1\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\ARI\Desktop\projectCPPPart1\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/ARI/Desktop/projectCPPPart1/projectCPPPart1/Address.cpp">
+			<Option target="projectCPPPart1"/>
+		</Unit>
+		<Unit filename="C:/Users/ARI/Desktop/projectCPPPart1/projectCPPPart1/Address.h">
+			<Option target="projectCPPPart1"/>
+		</Unit>
+		<Unit filename="C:/Users/ARI/Desktop/projectCPPPart1/projectCPPPart1/Animal.cpp">
+			<Option target="projectCPPPart1"/>
+		</Unit>
+		<Unit filename="C:/Users/ARI/Desktop/projectCPPPart1/projectCPPPart1/Animal.h">
+			<Option target="projectCPPPart1"/>
+		</Unit>
+		<Unit filename="C:/Users/ARI/Desktop/projectCPPPart1/projectCPPPart1/Bat.cpp">
+			<Option target="projectCPPPart1"/>
+		</Unit>
+		<Unit filename="C:/Users/ARI/Desktop/projectCPPPart1/projectCPPPart1/Bat.h">
+			<Option target="projectCPPPart1"/>
+		</Unit>
+		<Unit filename="C:/Users/ARI/Desktop/projectCPPPart1/projectCPPPart1/Bird.cpp">
+			<Option target="projectCPPPart1"/>
+		</Unit>
+		<Unit filename="C:/Users/ARI/Desktop/projectCPPPart1/projectCPPPart1/Bird.h">
+			<Option target="projectCPPPart1"/>
+		</Unit>
+		<Unit filename="C:/Users/ARI/Desktop/projectCPPPart1/projectCPPPart1/Cage.cpp">
+			<Option target="projectCPPPart1"/>
+		</Unit>
+		<Unit filename="C:/Users/ARI/Desktop/projectCPPPart1/projectCPPPart1/Cage.h">
+			<Option target="projectCPPPart1"/>
+		</Unit>
+		<Unit filename="C:/Users/ARI/Desktop/projectCPPPart1/projectCPPPart1/CanSwin.cpp">
+			<Option target="projectCPPPart1"/>
+		</Unit>
+		<Unit filename="C:/Users/ARI/Desktop/projectCPPPart1/projectCPPPart1/CanSwin.h">
+			<Option target="projectCPPPart1"/>
+		</Unit>
+		<Unit filename="C:/Users/ARI/Desktop/projectCPPPart1/projectCPPPart1/Canfly.cpp">
+			<Option target="projectCPPPart1"/>
+		</Unit>
+		<Unit filename="C:/Users/ARI/Desktop/projectCPPPart1/projectCPPPart1/Canfly.h">
+			<Option target="projectCPPPart1"/>
+		</Unit>
+		<Unit filename="C:/Users/ARI/Desktop/projectCPPPart1/projectCPPPart1/Crocodile.cpp">
+			<Option target="projectCPPPart1"/>
+		</Unit>
+		<Unit filename="C:/Users/ARI/Desktop/projectCPPPart1/projectCPPPart1/Crocodile.h">
+			<Option target="projectCPPPart1"/>
+		</Unit>
+		<Unit filename="C:/Users/ARI/Desktop/projectCPPPart1/projectCPPPart1/Employee.cpp">
+			<Option target="projectCPPPart1"/>
+		</Unit>
+		<Unit filename="C:/Users/ARI/Desktop/projectCPPPart1/projectCPPPart1/Employee.h">
+			<Option target="projectCPPPart1"/>
+		</Unit>
+		<Unit filename="C:/Users/ARI/Desktop/projectCPPPart1/projectCPPPart1/Lion.cpp">
+			<Option target="projectCPPPart1"/>
+		</Unit>
+		<Unit filename="C:/Users/ARI/Desktop/projectCPPPart1/projectCPPPart1/Lion.h">
+			<Option target="projectCPPPart1"/>
+		</Unit>
+		<Unit filename="C:/Users/ARI/Desktop/projectCPPPart1/projectCPPPart1/Mammal.cpp">
+			<Option target="projectCPPPart1"/>
+		</Unit>
+		<Unit filename="C:/Users/ARI/Desktop/projectCPPPart1/projectCPPPart1/Mammal.h">
+			<Option target="projectCPPPart1"/>
+		</Unit>
+		<Unit filename="C:/Users/ARI/Desktop/projectCPPPart1/projectCPPPart1/Ostrich.cpp">
+			<Option target="projectCPPPart1"/>
+		</Unit>
+		<Unit filename="C:/Users/ARI/Desktop/projectCPPPart1/projectCPPPart1/Ostrich.h">
+			<Option target="projectCPPPart1"/>
+		</Unit>
+		<Unit filename="C:/Users/ARI/Desktop/projectCPPPart1/projectCPPPart1/Parrot.cpp">
+			<Option target="projectCPPPart1"/>
+		</Unit>
+		<Unit filename="C:/Users/ARI/Desktop/projectCPPPart1/projectCPPPart1/Parrot.h">
+			<Option target="projectCPPPart1"/>
+		</Unit>
+		<Unit filename="C:/Users/ARI/Desktop/projectCPPPart1/projectCPPPart1/Reptile.cpp">
+			<Option target="projectCPPPart1"/>
+		</Unit>
+		<Unit filename="C:/Users/ARI/Desktop/projectCPPPart1/projectCPPPart1/Reptile.h">
+			<Option target="projectCPPPart1"/>
+		</Unit>
+		<Unit filename="C:/Users/ARI/Desktop/projectCPPPart1/projectCPPPart1/Zoo.cpp">
+			<Option target="projectCPPPart1"/>
+		</Unit>
+		<Unit filename="C:/Users/ARI/Desktop/projectCPPPart1/projectCPPPart1/Zoo.h">
+			<Option target="projectCPPPart1"/>
+		</Unit>
+		<Unit filename="C:/Users/ARI/Desktop/projectCPPPart1/projectCPPPart1/projectCPPPart1.cpp">
+			<Option target="projectCPPPart1"/>
+		</Unit>
+		<Unit filename="C:/Users/ARI/Desktop/projectCPPPart1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

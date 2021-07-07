@@ -1,0 +1,49 @@
+﻿  Address.cpp
+  Animal.cpp
+  Bat.cpp
+  Bird.cpp
+  Cage.cpp
+  Canfly.cpp
+  CanSwin.cpp
+  Crocodile.cpp
+  Employee.cpp
+  Mammal.cpp
+  Lion.cpp
+  Reptile.cpp
+  Ostrich.cpp
+  Parrot.cpp
+  projectCPPPart1.cpp
+  Zoo.cpp
+  Generating Code...
+C:\Users\User\Desktop\אפקה\שנה רביעית סמסטר ב\C++\מטלה חלק 1\code\projectCPPPart1\projectCPPPart1\projectCPPPart1.cpp(87): warning C4172: returning address of local variable or temporary: b
+C:\Users\User\Desktop\אפקה\שנה רביעית סמסטר ב\C++\מטלה חלק 1\code\projectCPPPart1\projectCPPPart1\projectCPPPart1.cpp(112): warning C4172: returning address of local variable or temporary: p
+C:\Users\User\Desktop\אפקה\שנה רביעית סמסטר ב\C++\מטלה חלק 1\code\projectCPPPart1\projectCPPPart1\projectCPPPart1.cpp(50): warning C4172: returning address of local variable or temporary: l
+C:\Users\User\Desktop\אפקה\שנה רביעית סמסטר ב\C++\מטלה חלק 1\code\projectCPPPart1\projectCPPPart1\projectCPPPart1.cpp(70): warning C4172: returning address of local variable or temporary: o
+C:\Users\User\Desktop\אפקה\שנה רביעית סמסטר ב\C++\מטלה חלק 1\code\projectCPPPart1\projectCPPPart1\projectCPPPart1.cpp(141): warning C4172: returning address of local variable or temporary: e
+C:\Users\User\Desktop\אפקה\שנה רביעית סמסטר ב\C++\מטלה חלק 1\code\projectCPPPart1\projectCPPPart1\projectCPPPart1.cpp(128): warning C4172: returning address of local variable or temporary: c
+projectCPPPart1.obj : error LNK2019: unresolved external symbol "public: __cdecl Address::Address(char const *,int,char const *)" (??0Address@@QEAA@PEBDH0@Z) referenced in function main
+projectCPPPart1.obj : error LNK2019: unresolved external symbol "public: __cdecl Address::~Address(void)" (??1Address@@QEAA@XZ) referenced in function main
+projectCPPPart1.obj : error LNK2019: unresolved external symbol "public: __cdecl Zoo::Zoo(char const *,int,class Address &)" (??0Zoo@@QEAA@PEBDHAEAVAddress@@@Z) referenced in function main
+projectCPPPart1.obj : error LNK2019: unresolved external symbol "public: __cdecl Zoo::~Zoo(void)" (??1Zoo@@QEAA@XZ) referenced in function main
+projectCPPPart1.obj : error LNK2019: unresolved external symbol "public: __cdecl Canfly::Canfly(int)" (??0Canfly@@QEAA@H@Z) referenced in function "public: __cdecl Bat::Bat(int,char const *,float,float)" (??0Bat@@QEAA@HPEBDMM@Z)
+projectCPPPart1.obj : error LNK2019: unresolved external symbol "public: virtual __cdecl Bat::~Bat(void)" (??1Bat@@UEAA@XZ) referenced in function "public: virtual void * __cdecl Bat::`scalar deleting destructor'(unsigned int)" (??_GBat@@UEAAPEAXI@Z)
+projectCPPPart1.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl Bat::fly(void)const " (?fly@Bat@@UEBAXXZ)
+projectCPPPart1.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl Bat::eat(void)" (?eat@Bat@@UEAAXXZ)
+projectCPPPart1.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl Bat::makeSound(void)const " (?makeSound@Bat@@UEBAXXZ)
+projectCPPPart1.obj : error LNK2019: unresolved external symbol "public: virtual __cdecl Lion::~Lion(void)" (??1Lion@@UEAA@XZ) referenced in function "public: virtual void * __cdecl Lion::`scalar deleting destructor'(unsigned int)" (??_GLion@@UEAAPEAXI@Z)
+projectCPPPart1.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl Lion::makeSound(void)const " (?makeSound@Lion@@UEBAXXZ)
+projectCPPPart1.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl Lion::eat(void)" (?eat@Lion@@UEAAXXZ)
+projectCPPPart1.obj : error LNK2019: unresolved external symbol "public: virtual __cdecl Bird::~Bird(void)" (??1Bird@@UEAA@XZ) referenced in function "int `public: __cdecl Parrot::Parrot(int,char const *,float,float,char const *,float,int)'::`1'::dtor$0" (?dtor$0@?0???0Parrot@@QEAA@HPEBDMM0MH@Z@4HA)
+projectCPPPart1.obj : error LNK2019: unresolved external symbol "public: virtual __cdecl Ostrich::~Ostrich(void)" (??1Ostrich@@UEAA@XZ) referenced in function "public: virtual void * __cdecl Ostrich::`scalar deleting destructor'(unsigned int)" (??_GOstrich@@UEAAPEAXI@Z)
+projectCPPPart1.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl Ostrich::eat(void)" (?eat@Ostrich@@UEAAXXZ)
+projectCPPPart1.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl Ostrich::makeSound(void)const " (?makeSound@Ostrich@@UEBAXXZ)
+projectCPPPart1.obj : error LNK2019: unresolved external symbol "public: virtual __cdecl Reptile::~Reptile(void)" (??1Reptile@@UEAA@XZ) referenced in function "int `public: __cdecl Crocodile::Crocodile(int,char const *,float,float)'::`1'::dtor$0" (?dtor$0@?0???0Crocodile@@QEAA@HPEBDMM@Z@4HA)
+projectCPPPart1.obj : error LNK2019: unresolved external symbol "public: virtual __cdecl Crocodile::~Crocodile(void)" (??1Crocodile@@UEAA@XZ) referenced in function "public: virtual void * __cdecl Crocodile::`scalar deleting destructor'(unsigned int)" (??_GCrocodile@@UEAAPEAXI@Z)
+projectCPPPart1.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl Crocodile::swim(void)const " (?swim@Crocodile@@UEBAXXZ)
+projectCPPPart1.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl Crocodile::makeSound(void)const " (?makeSound@Crocodile@@UEBAXXZ)
+projectCPPPart1.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl Crocodile::eat(void)" (?eat@Crocodile@@UEAAXXZ)
+projectCPPPart1.obj : error LNK2019: unresolved external symbol "public: virtual __cdecl Parrot::~Parrot(void)" (??1Parrot@@UEAA@XZ) referenced in function "public: virtual void * __cdecl Parrot::`scalar deleting destructor'(unsigned int)" (??_GParrot@@UEAAPEAXI@Z)
+projectCPPPart1.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl Parrot::eat(void)" (?eat@Parrot@@UEAAXXZ)
+projectCPPPart1.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl Parrot::makeSound(void)const " (?makeSound@Parrot@@UEBAXXZ)
+projectCPPPart1.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl Parrot::fly(void)const " (?fly@Parrot@@UEBAXXZ)
+C:\Users\User\Desktop\אפקה\שנה רביעית סמסטר ב\C++\מטלה חלק 1\code\projectCPPPart1\x64\Debug\projectCPPPart1.exe : fatal error LNK1120: 25 unresolved externals

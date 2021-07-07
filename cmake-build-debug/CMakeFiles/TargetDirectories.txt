@@ -1,0 +1,3 @@
+C:/Users/ARI/Desktop/projectCPPPart1/cmake-build-debug/CMakeFiles/projectCPPPart1.dir
+C:/Users/ARI/Desktop/projectCPPPart1/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/ARI/Desktop/projectCPPPart1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
